@@ -1,8 +1,6 @@
 
 <img src="https://img.shields.io/static/v1?label=Projeto&message=RocketMovies&color=FF859B&style=for-the-badge&logo=ghost"/>
 
-# Em Construção
-
 # Rocket Movies Back-end 🎬
 <p>Projeto do curso Explorer pela RocketSeat, podemos adicionar notas sobre os 
 nosso filmes favoritos, contendo a classificação(rating), tag, título e descrição do filme.</p>
@@ -20,7 +18,12 @@ nosso filmes favoritos, contendo a classificação(rating), tag, título e descr
 - pm2
 - sqlite
 
+## Insomnia
+Arquivo para utilizar as rotas no Insomnia.
 
+<a href="https://drive.google.com/file/d/1VAOx0LQNzn81maM8q9_6swIGBbsWk0RT/view?usp=sharing">
+  <img src="https://insomnia.rest/images/run.svg">
+</a>
 
 ## Features ✔️
 - [x] Cadastro de usuário
@@ -28,22 +31,13 @@ nosso filmes favoritos, contendo a classificação(rating), tag, título e descr
 - [x] Pesquisa por título da nota.
 - [x] Atualização das informações do usuário.
 
-## Layout 🎨
-<a href="https://rocketmovieson.netlify.app/">
-<img src="https://user-images.githubusercontent.com/107257951/200891476-01ab05f1-3ac4-490e-895f-4944eff8affe.png">
-</a>
-<p align="center">
-<b>Clique para visualizar a aplicação.<b/> <br/>
-  <a href="https://rocketmovieson.netlify.app/" target="_blank"><img src="https://api.netlify.com/api/v1/badges/db85457b-341d-4563-89a0-eb9b19ad47e9/deploy-status" alt="Veja a aplicação"></a>
-</p>
-
-## Back-end 🖥️
+## Front-end 🖥️
 Pode acessar a página de back-end da aplicação por esse link para mais informações:
-<a href="https://github.com/douglaSantoSilva/backendRocketMovies">Clique aqui.</a>
+<a href="https://github.com/douglaSantoSilva/RocketMoviesFront">Clique aqui.</a>
 
 
 ## Estudo 🕮
-Meus Resumos sobre alguns conteúdos do front-end.
+Meus Resumos sobre alguns conteúdos do Back-end.
 <a href="https://douglasdomain.notion.site/Front-end-88e34eeca56143b78a156653ab1bfa74">
   <img width='30px' height='30px' src="https://img.icons8.com/material-outlined/512/notion.png">
 </a>
