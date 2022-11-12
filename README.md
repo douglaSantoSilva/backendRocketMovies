@@ -38,7 +38,7 @@ Pode acessar a página de back-end da aplicação por esse link para mais inform
 
 ## Estudo 🕮
 Meus Resumos sobre alguns conteúdos do Back-end.
-<a href="https://douglasdomain.notion.site/Front-end-88e34eeca56143b78a156653ab1bfa74">
+<a href="https://www.notion.so/douglasdomain/Back-end-3067599b2ac74fb0a3f5f0eaab535e15">
   <img width='30px' height='30px' src="https://img.icons8.com/material-outlined/512/notion.png">
 </a>
 <br/>
