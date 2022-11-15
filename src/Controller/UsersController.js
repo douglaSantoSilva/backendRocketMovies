@@ -1,25 +1,19 @@
 const { AppErrors } = require("../utils/AppErrors")
-const { hash, compare } = require('bcryptjs')
 const  knex  = require("../database/knex")
+const { UserRepository } = require("../repositories/UserRepository")
+const { UserCreateService } = require("../services/UserCreateService")
+const { hash, compare } = require('bcryptjs')
+
 class UsersController {
 
   async create(request, response) {
     const { email, name, password} = request.body
-
-    if(!name || !password || !email) {
-      throw new AppErrors("O nome, senha e password é obrigatório!")
-    }
-
-    const verifyEmailExist = await knex.select("email").from("users").where({email: email})
-
-    if(verifyEmailExist.length > 0) {
-      throw new AppErrors("Este e-mail já está cadastrado.", 401)
-    }
-
-    const hashedPassword = await hash(password, 8)
-    await knex("users").insert({name, email,password: hashedPassword})
+    const userRepository = new UserRepository()
+    const userCreateService = new UserCreateService(userRepository)
     
-    return response.status(201).json({email, name, password})
+    await userCreateService.execute({email, name, password})
+
+    return response.status(201).json()
   }
 
   async update(request, response) {
